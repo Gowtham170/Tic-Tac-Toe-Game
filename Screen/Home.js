@@ -4,7 +4,7 @@ import RNExitApp from 'react-native-exit-app';
 import image2 from '../Image/image6.jpg'; 
 import image3 from '../Image/images1.jpeg';
 
- handleClick = () => {
+ handleClick = () => {  
    RNExitApp.exitApp(0);
  }
 

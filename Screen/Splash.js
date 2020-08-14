@@ -6,7 +6,8 @@ import image3 from '../Image/images1.jpeg';
 export default class Splash extends React.Component {
       
     componentDidMount () {
-        setTimeout ( () => { this.props.navigation.navigate('Home');
+        setTimeout ( () => {
+             this.props.navigation.navigate('Home');
         },time);
     }
 
